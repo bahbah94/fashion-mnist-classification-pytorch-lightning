@@ -4,7 +4,7 @@ Classify apparel images in Fashion-MNIST dataset using custom built fully-connec
 <img src="https://github.com/sssingh/fashion-mnist-classification/blob/master/assets/fmnist_intro.png?raw=true" width="800" height="400">
 
 
-Converting Pytorch code to pytorch lighning
+Converting Pytorch code to pytorch lightning. The Model is given below:
 
 ```
 Sequential(
@@ -24,6 +24,32 @@ Sequential(
 )
 
 ```
+
+We have a `config.yaml` file that contains the necesary config requirements for hyperparameters like learning rate, batch_size, optimizer, number of epochs as requested in the task. 
+
+The following code installs pip in conda
+
+```
+conda install pip
+```
+Later we create a conda environment and activate it as such
+```
+conda create --nameofenv
+conda activate
+```
+
+After this we are inside the conda environment.
+next we download the required file in the requirements.txt file uploaded. 
+
+`pip install -r requirements.txt`
+
+finally once everything is installed. A config file called 'config.yaml' contains all the configurations required for this task.
+
+Run the following to train the network:
+
+`python3 train.py lr=0.007 batch_size=32 optimizer=sgd epochs=100`
+
+here arguments like lr and batch_size can be inputed by user
 
 ## Features
 ⚡Multi Label Image Classification  
