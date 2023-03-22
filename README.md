@@ -51,6 +51,8 @@ Run the following to train the network:
 
 here arguments like lr and batch_size can be inputed by user.
 
+when done run `conda deactivate`
+
 
 ################################################# FROM HERE ON ONWARDS ITS THE SAME AS ORIGINAL REPO ###################################################
 
