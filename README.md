@@ -3,6 +3,28 @@ Classify apparel images in Fashion-MNIST dataset using custom built fully-connec
 
 <img src="https://github.com/sssingh/fashion-mnist-classification/blob/master/assets/fmnist_intro.png?raw=true" width="800" height="400">
 
+
+Converting Pytorch code to pytorch lighning
+
+```
+Sequential(
+  (fc1): Linear(in_features=784, out_features=392, bias=True)
+  (relu1): ReLU()
+  (drop1): Dropout(p=0.25, inplace=False)
+  (fc12): Linear(in_features=392, out_features=196, bias=True)
+  (relu2): ReLU()
+  (drop2): Dropout(p=0.25, inplace=False)
+  (fc3): Linear(in_features=196, out_features=98, bias=True)
+  (relu3): ReLU()
+  (drop3): Dropout(p=0.25, inplace=False)
+  (fc4): Linear(in_features=98, out_features=49, bias=True)
+  (relu4): ReLU()
+  (output): Linear(in_features=49, out_features=10, bias=True)
+  (logsoftmax): LogSoftmax(dim=1)
+)
+
+```
+
 ## Features
 ⚡Multi Label Image Classification  
 ⚡Cutsom Fully Connected NN  
