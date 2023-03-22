@@ -49,7 +49,10 @@ Run the following to train the network:
 
 `python3 train.py lr=0.007 batch_size=32 optimizer=sgd epochs=100`
 
-here arguments like lr and batch_size can be inputed by user
+here arguments like lr and batch_size can be inputed by user.
+
+
+################################################# FROM HERE ON ONWARDS ITS THE SAME AS ORIGINAL REPO ###################################################
 
 ## Features
 ⚡Multi Label Image Classification  
